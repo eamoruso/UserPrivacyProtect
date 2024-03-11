@@ -1,2 +1,7 @@
-# UserPrivacyProtect
-User Privacy Protection via Windows Registry Hooking and Real-Time Encryption
+# User Privacy Protection via Windows Registry Hooking and Real-Time Encryption
+
+# Abstract
+The Windows registry is a vital component of the Microsoft operating system (OS), containing crucial settings and detailed information in a hierarchical database. To demonstrate its importance, if it should become corrupt or damaged, both OS and other applications may fail to function properly. Data stored in the registry consists of system-wide settings, user preferences, installed programs, recently accessed files, and much more. Importantly, the registry also maintains time stamps that can assist in constructing a timeline of user activities. Accessing this rich repository can easily be accomplished by OS built-in applications, third party tools, and native application program interfaces (APIs). Considering the ease of access, the registry holds enormous potential to uncover sensitive details about a user’s system interactions and activities. For example, documents, spreadsheets, and presentations opened by the user can also be found in the registry, thereby posing a risk to their privacy. Moreover, it also exposes the user’s system security configuration, creating an insightful opportunity for nefarious actors. To address this concern, we propose a custom-developed application that utilizes both software-based encryption and advanced hooking techniques to protect users’ personal data within the registry. Our program is designed to create a more secure and discreet environment for users, effectively fortifying it against privacy and security threats while maintaining accessibility to legitimate users and applications.
+
+# Authors
+Edward L. Amoruso, Richard Leinecker, and Cliff C. Zou
