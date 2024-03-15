@@ -1,0 +1,1 @@
+RunRegProtect.exe /d:RunRegProtectDLL.dll /v HookAndEncryptRegistry.exe
